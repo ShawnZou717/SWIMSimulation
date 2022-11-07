@@ -1,0 +1,34 @@
+{
+    "RadarParameters":{
+        "IncidentAngles":[0, 2, 4, 6, 8, 10],
+        "RadarGates":[1,4,4,2,3,3],
+        "PulsesEachMicroCycle":[264,97,97,156,186,204],
+        "TransmitPower":120,
+        "WorkingFrequency":13575000000,
+        "LightSpeed":300000000,
+        "RotatingSpeed":2016,
+        "RadarAltitude":519000,
+        "Three3dBBeamWidth":2
+    },
+
+    "ExpParameters":{
+        "IncidentAngleIndex":6,
+        "ExpCounts":1,
+        "OceanWaveType":[
+            "EL",
+            "DV",
+            "DV"
+        ],
+        "OceanParameters":[{"WindSpeed":12,
+                            "InverseWaveAge":0.84,
+                            "PeakWaveDirection":45},
+                           {"WaveHeight":2,
+                            "PeakWavelength":200,
+                            "PeakWaveDirection":15},
+                           {"WaveHeight":2,
+                            "PeakWavelength":200,
+                            "PeakWaveDirection":115}
+        ],
+        "ObservingIntervalAngle":360
+    }
+}

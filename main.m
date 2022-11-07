@@ -47,6 +47,9 @@ Oceanic Technology, 2001, 18(3):421-437.
 
 %}
 
+clear all;
+close all;
+
 % Loading parameters from json config file.
 Conf = jsondecode(fileread("ParaConfig.json"));
 ExpCounts = Conf.ExpParameters.ExpCounts;

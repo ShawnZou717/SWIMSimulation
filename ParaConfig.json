@@ -29,6 +29,6 @@
                             "PeakWavelength":200,
                             "PeakWaveDirection":115}
         ],
-        "ObservingIntervalAngle":360
+        "ObservingIntervalAngle":90
     }
 }

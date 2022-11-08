@@ -200,5 +200,5 @@ plot(K, SlopeSpectrumNoisedAlongFlight);
 title("Comparison between slope Spectrum along flight directionl.")
 xlabel("Wavenumber k (1/m)");
 ylabel("SlopeSpectrum (m^2)");
-legend("SloeSpec-NoiseFree","SloeSpec-Noised");
+legend("SlopeSpec-NoiseFree","SlopeSpec-Noised");
 

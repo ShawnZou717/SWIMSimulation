@@ -14,9 +14,10 @@ This project is constructed with 100% MATLAB codes. So before running, the only 
 
 # Usage
 There is alreadly a small exp set for you to play around. Simply run the main.m file with MATLAB's running buttom or print `run main` in MATLAB console. At the end, a comparison between detected slope spectrum and ground truth is performed. And 3 figs including detected slope spectrum, ground truth spectrum, and comparison between them along flight movement would be shown:
-<img src="Doc/Fig001.jpg" alt="Doc/Fig001.jpg" width="300" height="263" align="left" />
-<img src="Doc/Fig002.jpg" alt="Doc/Fig002.jpg" width="300" height="263" align="middle" />
-<img src="Doc/Fig003.jpg" alt="Doc/Fig003.jpg" width="300" height="263" align="right" />
+
+<img src="Doc/Fig001.jpg" alt="Doc/Fig001.jpg" width="250" height="220" align="left" />
+<img src="Doc/Fig002.jpg" alt="Doc/Fig002.jpg" width="250" height="220" align="middle" />
+<img src="Doc/Fig003.jpg" alt="Doc/Fig003.jpg" width="250" height="220" align="right" />
 
 You can set breakpoints anywhere to understand the working mechanism of this project. However, reading the simulation principle listed above can prepare you well for understanding of the underlying physical and mathematical basis, and assist greatly if you tend to customize on your own.
 

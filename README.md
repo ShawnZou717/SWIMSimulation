@@ -1,5 +1,5 @@
 # SWIM Simulation
-This software is constructed to simulate the DWS (dicrectional wave spectrum) detection process of SWIM onboard CFOSAT. There are primarily 5 steps: 
+This software is constructed to simulate the DWS (dicrectional wave spectrum) detection process of SWIM onboard CFOSAT. You can find the detail description in Hauser et al. 2001. There are primarily 5 steps: 
 
 1. [Generating sea surface](https://www.baidu.com); 
 2. [Calculating Backscattering Coefficients for each spliting bin](https://www.baidu.com); 
@@ -38,3 +38,6 @@ Configuration file `ParaConfig.json` listed all the parameters you can change wi
 | `ObservingIntervalAngle` | Angle between the successive radar scanning | Degree |
 
 **Attetion**: The simulated ocean area is determined by the 3dB beam projected on the horizontal plane at 0 altitude. **So, don't simply change the number of spliting bins of the ocean area, the correctness of speckle noise simulation relies in the coincidence between `spliting size` and `resolution*radar gates`.**
+
+# Reference
+1. Hauser D, Soussi E, Thouvenot E, et al. SWIMSAT: A real-aperture radar to measure directional spectra of ocean waves from space--main characteristics and performance simulation. Journal of Atmospheric & Oceanic Technology, 2001, 18(3):421-437.

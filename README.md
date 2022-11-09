@@ -1,7 +1,7 @@
 # SWIM Simulation
 This software is constructed to simulate the DWS (dicrectional wave spectrum) detection process of SWIM onboard CFOSAT. You can find the detail description in Hauser et al. 2001. There are primarily 5 steps **(click on the link below to check the physical and mathematical mechanism of responding step)**: 
 
-1. [Generating sea surface](https://www.baidu.com); 
+1. [Generating sea surface](Doc/Generating Sea Surface.pdf); 
 2. [Calculating Backscattering Coefficients for each spliting bin](https://www.baidu.com); 
 3. [Speckle noise simulation](https://www.baidu.com); 
 4. [Removal of deterministic parameters](https://www.baidu.com); 

@@ -9,6 +9,11 @@ This software is constructed to simulate the DWS (dicrectional wave spectrum) de
 
 For simulation principle of each step, please directly refer to the link underlying above. If you are interested in the measured data of SWIM please go to the [AVISO+ website about wave/wind CFOSAT products](https://www.aviso.altimetry.fr/en/data/products/wind/wave-products/wave-wind-cfosat-products.html) or [卫星海洋应用中心数据下载中心](https://osdds.nsoas.org.cn/) for more details.
 
+SWIM radar onboard CFOSAT is launched in 2018. There are 6 antenna set on the board of SWIM with different incident angle $0^{o},2^{o},4^{o},6^{o},8^{o},10^{o}$. The detecting geometric picture is shown in Fig.1. This software aims at simulating radar's performance of DWS acquisition and how radar parameters and other factors affect detection process.
+
+<img src="Doc/RadarGeometricPicture.png" alt="Doc/RadarGeometricPicture.png"/>
+<center><p><b>Fig.1 Radar Geometric Picture from <a href="https://www.aviso.altimetry.fr/fileadmin/documents/data/tools/SWIM_ProductUserGuide.pdf">SWIM User Guide Book</a> </b></p></center>
+
 # Install
 This project is constructed with 100% MATLAB codes. So before running, the only thing you need to do is install MATLAB >= 2017a and download all the source files.
 

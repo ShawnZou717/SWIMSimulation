@@ -21,8 +21,8 @@ Output parameters:
 Sigma0_noised: Relativity of back coef with speckle noise in space domain.
 %}
 
-function [ Sigma0_noised ] = AddingSpeckleNoise( Sigma0_Relativity, RadarGates )
-k=RadarGates;
-theta=Sigma0_Relativity/RadarGates;
-Sigma0_noised=gamrnd(k,theta);
+function [Sigma0_noised] = AddingSpeckleNoise(Sigma0_Relativity, RadarGates)
+k = RadarGates;
+theta = Sigma0_Relativity/RadarGates;
+Sigma0_noised = gamrnd(k, theta);
 end

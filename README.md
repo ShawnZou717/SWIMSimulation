@@ -1,11 +1,11 @@
 # SWIM Simulation
 This software is constructed to simulate the DWS (dicrectional wave spectrum) detection process of SWIM onboard CFOSAT. You can find the detail description in Hauser et al. 2001 [1]. There are primarily 5 steps **(click on the link below to check the physical and mathematical mechanism of responding step)**: 
 
-1. [Generating sea surface](Doc/GeneratingSeaSurface.pdf)**(Click here)**; 
-2. [Calculating Backscattering Coefficients for each grid](Doc/CalculatingBackscatteringCoefficientsForEachGrid.pdf)**(Click here)**;
-3. [Speckle noise simulation](https://journals.ametsoc.org/view/journals/atot/18/3/1520-0426_2001_018_0421_sarart_2_0_co_2.xml)(Origins from Hasuer 2001 [1]);
-4. [Removal of deterministic parameters](https://www.aviso.altimetry.fr/fileadmin/documents/data/tools/SWIM_ProductUserGuide.pdf); 
-5. [Spectrum estimation](https://www.aviso.altimetry.fr/fileadmin/documents/data/tools/SWIM_ProductUserGuide.pdf).
+1. [Generating sea surface](Doc/GeneratingSeaSurface.pdf)**(Click here to check theoretical analysis)**; 
+2. [Calculating Backscattering Coefficients for each grid](Doc/CalculatingBackscatteringCoefficientsForEachGrid.pdf)**(Click here to check theoretical analysis)**;
+3. [Speckle noise simulation](https://journals.ametsoc.org/view/journals/atot/18/3/1520-0426_2001_018_0421_sarart_2_0_co_2.xml) (Origins from Hasuer 2001 [1]);
+4. [Removal of deterministic parameters](https://www.aviso.altimetry.fr/fileadmin/documents/data/tools/SWIM_ProductUserGuide.pdf) (Click to check SWIM Users Guide); 
+5. [Spectrum estimation](https://www.aviso.altimetry.fr/fileadmin/documents/data/tools/SWIM_ProductUserGuide.pdf) (Click to check SWIM Users Guide).
 
 For simulation principle of each step, please directly refer to the link underlying above. If you are interested in the measured data of SWIM please go to the [AVISO+ website about wave/wind CFOSAT products](https://www.aviso.altimetry.fr/en/data/products/wind/wave-products/wave-wind-cfosat-products.html) or [卫星海洋应用中心数据下载中心](https://osdds.nsoas.org.cn/) for more details.
 

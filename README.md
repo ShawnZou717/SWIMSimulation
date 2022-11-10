@@ -15,7 +15,7 @@ SWIM radar onboard CFOSAT is launched in 2018. There are 6 antenna set on the bo
 <center><p><b>Fig.1 Radar Geometric Picture from <a href="https://www.aviso.altimetry.fr/fileadmin/documents/data/tools/SWIM_ProductUserGuide.pdf">SWIM User Guide Book</a> </b></p></center>
 
 # Install
-This project is constructed with 100% MATLAB codes. So before running, the only thing you need to do is install MATLAB >= 2017a and download all the source files.
+This project is constructed with 100% MATLAB codes. So before running, the only thing you need to do is to install MATLAB >= 2017a and download all the source files.
 
 # Usage
 There is alreadly a small exp set for you to play around. Simply run the main.m file with MATLAB's running buttom or print `run main` in MATLAB console. At the end, a comparison between detected slope spectrum and ground truth is performed. And 3 figs including detected slope spectrum, ground truth spectrum, and comparison between them along flight movement would be shown:

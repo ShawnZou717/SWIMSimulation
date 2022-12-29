@@ -21,10 +21,11 @@ ObservingAngle
 Conf: Configuration file content
 
 Output parameters:
-Sigma0: Backscattering coefficients of each bin of sea surface.
+Sigma0_avg: Backscattering coefficients averaged over attenna gain patter.
+Sigma0: Backscattering coef of each grid of the sea surface.
 %}
 
-function [Sigma0] = CalculatingAveragedBackCoef(height, slope_x, slope_y, Lx, Ly, dx, dy, ObservingAngle, Conf)
+function [Sigma0, Sigma0_avg] = CalculatingAveragedBackCoef(height, slope_x, slope_y, Lx, Ly, dx, dy, ObservingAngle, Conf)
 RadarAltitude = Conf.RadarParameters.RadarAltitude;
 IncidentAngleIndex = Conf.ExpParameters.IncidentAngleIndex;
 IncidentAngle = Conf.RadarParameters.IncidentAngles(IncidentAngleIndex) * pi/180;
@@ -92,7 +93,7 @@ Sigma0 = lo * pi * AngleCosValue .^ (-4) .* pp;
 % sigma0 averaged with attenna pattern
 Gy = exp(-y .^ 2 / (2 * Ly ^ 2));
 Gy2 = (Gy') .^ 2;
-Sigma0 = Gy2 .* Sigma0';
-Sigma0 = sum(Sigma0) ./ sum(Gy2);
+Sigma0_avg = Gy2 .* Sigma0';
+Sigma0_avg = sum(Sigma0_avg) ./ sum(Gy2);
 
 end

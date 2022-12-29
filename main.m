@@ -127,7 +127,7 @@ for ObserveCount = 1 : ObserveCountsPerCycle
         [height, slope_x, slope_y] = GeneratingSeaSurface(Lx, Ly, dx, dy, t, ObservingAngle);
 
         % calculating back coef averaged by anttenna gain pattern.
-        [Sigma0] = CalculatingAveragedBackCoef(height, slope_x, slope_y, Lx, Ly, dx, dy, ObservingAngle, Conf);
+        [~, Sigma0] = CalculatingAveragedBackCoef(height, slope_x, slope_y, Lx, Ly, dx, dy, ObservingAngle, Conf);
 
         % first zero-centering the sigma and normalize it.
         [Sigma0_Relative, Sigma0_mean] = ZeroCenteredAndNormalization(Lx, Ly, dx, dy, RadarAltitude, IncidentAngle, Sigma0);
